@@ -1,0 +1,42 @@
+/* General styles for the body */
+.body1 {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe1e1; /* Light red background */
+    
+}
+
+/* Style the heading */
+.header1 {
+    color: #ff581b; /* Dark orange */
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    
+}
+
+/* Style the list */
+.recipes {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    text-align: center;
+}
+
+/* Style the list items */
+.recipesli {
+    margin: 10px 0;
+}
+
+/* Style the links */
+.arecipes {
+    text-decoration: none;
+    color: #c33323; /* Red */
+    font-size: 18px;
+}
+
+.arecipes:hover {
+    color: #9c291c; /* Darker red on hover */
+    text-decoration: underline;
+}
