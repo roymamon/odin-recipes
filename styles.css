@@ -1,6 +1,6 @@
 /* General styles for the body */
 .body1 {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Old English Five', 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     background-color: #ffe1e1; /* Light red background */
@@ -11,9 +11,13 @@
 .header1 {
     color: #ff581b; /* Dark orange */
     text-align: center;
-    margin-top: 24px;
-    margin-bottom: 50px;
+    margin-top: 18px;
+    margin-bottom: 100px;
+    /*margin overrides the margin-specific's above*/
+    border-bottom: 8px solid white;
+    padding:4px;
     font-weight: bold;
+    font-size: 50px;
     
 }
 
@@ -22,21 +26,30 @@
     list-style-type: none; /* Remove bullet points */
     padding: 0;
     text-align: center;
+    
 }
 
 /* Style the list items */
 .recipesli {
-    margin: 10px 0;
+    margin: 20px 0;
+    
 }
 
 /* Style the links */
 .arecipes {
+    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     color: #c33323; /* Red */
-    font-size: 18px;
+    font-size: 28px;
+    border: 2px solid #c33323;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding: 6px;
 }
 
 .arecipes:hover {
     color: #9c291c; /* Darker red on hover */
     text-decoration: underline;
+    font-size: 30px;
+
 }
