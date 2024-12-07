@@ -9,7 +9,7 @@ i will do so by using knowledge from the html chapter in The Odin Project:
 
 UPDATE:
 
-Added a css file inorder to style the website.
+Added a css file in order to style the website.
 * Selectors
 * The Box Model
 * ETC
