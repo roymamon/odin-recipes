@@ -21,8 +21,8 @@
     margin-top: 18px;
     margin-bottom: 100px;
     /*margin overrides the margin-specific's above*/
-    border-bottom: 8px solid white;
-    padding:4px;
+    border-bottom: 10px double white;
+    padding: 4px;
     font-weight: bold;
     font-size: 50px;
     
@@ -60,3 +60,14 @@
     font-size: 30px;
 
 }
+
+.bottom-line {
+    position: fixed;
+    bottom: 30px;               /* Distance from the bottom of the viewport */
+    left: 0;
+    width: 100%;                /* Line spans the full width */
+    height: 4px;
+    background-color: white;    /* Line color */
+}
+
+
